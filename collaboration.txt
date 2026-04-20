@@ -1,0 +1,17 @@
+ADVANCE
+=======\
+
+#1
+: git init
+
+#2 create git ignore
+: touch .gitignore
+
+#3 git stash
+
+#4 create and tag  realse
+:git tag v1.0
+
+#5 push repo and tags
+: git push origin main
+  git push origin v1.0
