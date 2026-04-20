@@ -1,0 +1,17 @@
+BASIC GIT WORKFLOW
+================
+
+#1 create a new directory and initialize git 
+: mkdir git_practice
+  cd git_practice
+  git init 
+
+#2 create read file
+: touch readme.md 
+
+#3 add and commit the file
+ : git add readme.md
+   git commit -m "update readme"
+
+#4 view commit history 
+: git log
